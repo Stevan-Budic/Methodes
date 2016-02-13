@@ -1,0 +1,354 @@
+/**************HEADER*******************/
+header {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background-color: #fff; }
+  header .navbar-default {
+    background-color: #fff;
+    border: none; }
+    header .navbar-default .navbar-toggle {
+      border: none; }
+      header .navbar-default .navbar-toggle .icon-bar {
+        background-color: #26468e;
+        height: 5px;
+        width: 25px; }
+    @media screen and (max-width: 770px) {
+      header .navbar-default .logo {
+        padding-top: 10px; } }
+    header .navbar-default .lang {
+      margin-right: 20px;
+      margin-top: 10px;
+      padding: 5px;
+      border: 1px solid #efeee8;
+      border-radius: 5px; }
+      header .navbar-default .lang a {
+        color: #efeee8;
+        font-size: 16px;
+        text-decoration: none; }
+    header .navbar-default ul {
+      text-align: right; }
+      @media screen and (max-width: 770px) {
+        header .navbar-default ul {
+          padding-top: 20px;
+          padding-right: 0;
+          width: 140px; } }
+      header .navbar-default ul li {
+        padding-left: 18px; }
+        header .navbar-default ul li a {
+          color: #26468e;
+          font-size: 1.125em;
+          text-decoration: none; }
+          header .navbar-default ul li a:hover {
+            color: #000;
+            border-bottom: 2px solid #efeee8; }
+        @media screen and (max-width: 770px) {
+          header .navbar-default ul li {
+            padding-top: 15px;
+            line-height: 10px; } }
+        header .navbar-default ul li .hidden-xs a {
+          font-weight: bold;
+          color: #bbb; }
+  header .navbar-collapse {
+    border: none;
+    width: 100%; }
+
+/************CLIMBER*******************/
+.climber {
+  position: relative; }
+  .climber h1 {
+    position: absolute;
+    top: 11%;
+    left: 11%;
+    color: #fff;
+    font-size: 2.750em; }
+  .climber h2 {
+    position: absolute;
+    top: 33%;
+    left: 27%;
+    color: #fff;
+    font-size: 1.625em; }
+
+.ellipse {
+  position: absolute;
+  top: 15%;
+  left: 70%; }
+
+.rectangle {
+  position: absolute;
+  top: 75%;
+  left: 45%; }
+
+.stairs {
+  position: absolute;
+  top: 50%;
+  left: 80%; }
+
+.rectangle-blue {
+  position: absolute;
+  top: -11px;
+  left: 8%; }
+
+.box {
+  position: absolute;
+  top: 8%;
+  left: 8%; }
+  @media screen and (max-width: 990px) {
+    .box {
+      top: 20%;
+      left: 20%; } }
+
+.box-rectangle {
+  position: absolute;
+  top: 38%;
+  left: 11%; }
+
+/**************METHODES********************/
+.methodes {
+  padding-top: 50px;
+  padding-bottom: 60px; }
+  @media screen and (max-width: 380px) {
+    .methodes {
+      padding-top: 30px; } }
+  .methodes .row:first-child {
+    padding-bottom: 30px; }
+  .methodes h2 {
+    font-size: 1.500em;
+    font-weight: bold;
+    width: 100px;
+    border-bottom: 3px solid #efeee8;
+    padding-bottom: 5px; }
+    @media screen and (max-width: 780px) {
+      .methodes h2 {
+        width: 100px;
+        margin-right: auto;
+        margin-left: auto; } }
+    @media screen and (max-width: 380px) {
+      .methodes h2 {
+        width: 100px;
+        margin-right: auto;
+        margin-left: 0; } }
+  @media screen and (max-width: 780px) {
+    .methodes p {
+      text-align: center; } }
+  @media screen and (max-width: 380px) {
+    .methodes p {
+      text-align: left; } }
+  .methodes button {
+    background-color: #26468e;
+    color: #fff;
+    width: 242px;
+    height: 44px; }
+    @media screen and (max-width: 780px) {
+      .methodes button {
+        width: 160px;
+        height: 44px; } }
+  .methodes .button-blue {
+    text-align: right; }
+    @media screen and (max-width: 780px) {
+      .methodes .button-blue {
+        text-align: center; } }
+  .methodes .vs {
+    text-align: center;
+    width: 20%;
+    float: left;
+    border-left: 1px solid #efeee8; }
+    .methodes .vs h3 {
+      font-size: 1.250em;
+      color: #9f9e98; }
+  .methodes .vs:last-child {
+    border-right: 1px solid #efeee8; }
+  .methodes .row:last-child {
+    padding-top: 50px; }
+
+/*****************FRANKOLIN COVEY********************/
+.franklin-covey {
+  background-color: #efeee8;
+  padding: 80px; }
+  .franklin-covey .container {
+    background-color: #fff; }
+    .franklin-covey .container .fc {
+      padding-top: 70px;
+      padding-bottom: 70px;
+      border-right: 1px solid #efeee8; }
+      @media screen and (max-width: 770px) {
+        .franklin-covey .container .fc {
+          border: none; } }
+    .franklin-covey .container .greatness {
+      text-align: center;
+      padding-left: 50px;
+      color: #444; }
+      @media screen and (max-width: 770px) {
+        .franklin-covey .container .greatness {
+          padding-left: 0; } }
+      .franklin-covey .container .greatness h3 {
+        font-size: 1.500em;
+        font-weight: bold;
+        color: #222;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 3px solid #efeee8;
+        padding-bottom: 5px; }
+        @media screen and (max-width: 770px) {
+          .franklin-covey .container .greatness h3 {
+            width: 60%; } }
+      .franklin-covey .container .greatness p {
+        font-size: 1.250em;
+        padding-top: 40px; }
+    .franklin-covey .container .mountain {
+      padding-left: 0;
+      padding-right: 0; }
+    .franklin-covey .container .row:first-child {
+      padding: 110px 100px; }
+      @media screen and (max-width: 770px) {
+        .franklin-covey .container .row:first-child {
+          padding: 60px 60px; } }
+
+/*********************AVATAR**********************/
+.avatar .container {
+  padding-top: 60px;
+  padding-left: 0;
+  padding-right: 0; }
+  .avatar .container .row:first-child {
+    text-align: center; }
+    .avatar .container .row:first-child h3 {
+      border-bottom: 3px solid #efeee8;
+      width: 15%;
+      font-weight: bold;
+      color: #222;
+      font-size: 1.500em;
+      margin-right: auto;
+      margin-left: auto;
+      padding-bottom: 10px; }
+  .avatar .container .row:last-child .item {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 90px; }
+    .avatar .container .row:last-child .item img {
+      padding-bottom: 100px; }
+    .avatar .container .row:last-child .item .carousel-caption h4, .avatar .container .row:last-child .item .carousel-caption h5, .avatar .container .row:last-child .item .carousel-caption p {
+      color: #444; }
+
+.carousel-control {
+  color: #efeee8;
+  text-shadow: none; }
+  .carousel-control:hover {
+    color: #000; }
+  .carousel-control:focus {
+    color: #000; }
+
+.carousel-control.left {
+  background-image: none; }
+
+.carousel-control.right {
+  background-image: none; }
+
+.carousel-caption {
+  text-shadow: none;
+  padding-bottom: 50px;
+  padding-top: 50px; }
+
+.carousel-indicators li {
+  background-color: #d5d4cd;
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  margin-right: 15px; }
+.carousel-indicators .active {
+  background-color: #222;
+  width: 7px;
+  height: 7px;
+  border-radius: 7px;
+  margin-right: 15px; }
+
+/************************FORM**********************/
+.form {
+  background-color: #efeee8;
+  padding: 5em; }
+  @media screen and (max-width: 480px) {
+    .form {
+      padding: 25px; } }
+  .form .container {
+    background-color: #fff; }
+  .form .form1 {
+    padding: 3.125rem; }
+    .form .form1 p {
+      font-size: 1.125em;
+      line-height: 28px; }
+    .form .form1 ul {
+      padding-left: 0;
+      border-bottom: 1px solid #efeee8; }
+      .form .form1 ul a:hover {
+        text-decoration: none; }
+      .form .form1 ul li {
+        list-style-type: none;
+        font-size: 1em;
+        line-height: 50px;
+        border-top: 1px solid #efeee8;
+        height: 50px; }
+        .form .form1 ul li img {
+          padding-right: 10px; }
+  .form .form2 {
+    padding: 60px 7.5em;
+    background-color: #f9f8f4;
+    margin-bottom: 0; }
+    @media screen and (max-width: 480px) {
+      .form .form2 {
+        padding: 60px 25px; } }
+    .form .form2 img.stamp {
+      position: absolute;
+      top: 0px;
+      right: 10%;
+      z-index: 1; }
+    .form .form2 .form-control {
+      z-index: 10; }
+      @media screen and (max-width: 480px) {
+        .form .form2 .form-control {
+          margin-right: 0;
+          margin-left: 0;
+          z-index: 10; } }
+    .form .form2 input {
+      height: 50px;
+      margin-bottom: 30px;
+      z-index: 10; }
+      @media screen and (max-width: 480px) {
+        .form .form2 input {
+          width: 100%; } }
+    .form .form2 textarea {
+      margin-bottom: 30px;
+      color: #a3a299; }
+    .form .form2 a {
+      background-color: #26468e;
+      width: 100%;
+      height: 50px; }
+      .form .form2 a img {
+        padding-top: 10px; }
+
+/********************FOOTER**********************/
+footer {
+  background-color: #efeee8;
+  padding-bottom: 100px; }
+  @media screen and (max-width: 480px) {
+    footer .add1 {
+      text-align: center;
+      width: 70%;
+      margin-left: 15%;
+      margin-right: 15%; } }
+  @media screen and (max-width: 480px) {
+    footer .add2 {
+      text-align: center;
+      width: 70%;
+      margin-left: 15%;
+      margin-right: 15%; } }
+  footer h4 {
+    font-size: 0.813em;
+    color: #a3a299; }
+  @media screen and (max-width: 480px) {
+    footer img {
+      padding-top: 25px;
+      display: block;
+      width: 30%;
+      margin-right: 35%;
+      margin-left: 35%; } }
+
+/*# sourceMappingURL=main.css.map */
